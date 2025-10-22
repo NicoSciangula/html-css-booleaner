@@ -1,3 +1,36 @@
-.logo{
+html {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    width: 1100px;
+}
+
+.logo {
     width: 200px;
+}
+
+figure {
+    margin: 0;
+    background-image: url(./img/pattern.png);
+    background-size: contain;
+}
+
+h1 {
+    font-size: 45px;
+}
+
+.grey-color {
+    color: rgb(154, 154, 154);
+}
+
+.blue-color {
+    color: rgb(63, 170, 207);
+
+}
+
+.font-color-yellow {
+    background-color: yellow;
 }
