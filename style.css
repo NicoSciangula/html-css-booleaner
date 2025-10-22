@@ -29,6 +29,10 @@ h1 {
 .small-title{
     margin-top: 0px;
 }
+.small-title p{
+    margin-top: 0;
+    font-size: 14px;
+}
 .grey-dark-color{
     color: rgb(139, 139, 139);
 }
