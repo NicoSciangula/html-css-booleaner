@@ -20,12 +20,18 @@ figure {
 
 h1 {
     font-size: 45px;
+    margin-bottom: 0;
 }
 
 .grey-color {
     color: rgb(154, 154, 154);
 }
-
+.small-title{
+    margin-top: 0px;
+}
+.grey-dark-color{
+    color: rgb(139, 139, 139);
+}
 .blue-color {
     color: rgb(63, 170, 207);
 
@@ -33,6 +39,11 @@ h1 {
 
 .font-color-yellow {
     background-color: yellow;
+}
+
+.under-comment{
+    font-size: 12px;
+    margin-top: 0;
 }
 
 .table-head {
