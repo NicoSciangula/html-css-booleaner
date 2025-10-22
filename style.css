@@ -44,16 +44,50 @@ h1 {
     background-color: rgb(177, 230, 242);
 }
 
-td, th{
+td,
+th {
     width: 250px;
 }
-.different-width{
+
+.different-width {
     width: 500px;
 }
-table, th, td{
+
+table,
+th,
+td {
     text-align: left;
     border-collapse: collapse;
 }
+
 ul{
-    padding-inline-start: 0;
+    padding-inline-start: 12px;
+}
+.img-background-1 {
+    background-image: url(./img/monitor.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 235px;
+    height: 180px;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+
+}
+
+.img-background-2 {
+    background-image: url(./img/graph.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 235px;
+    height: 180px;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.img-text {
+    position: relative;
+    left: 10px;
+    top: 10px;
 }
